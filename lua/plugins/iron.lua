@@ -44,7 +44,7 @@ return {
         cr = "<space>s<cr>",
         interrupt = "<space>s<space>",
         exit = "<space>sq",
-        clear = "<space>cl",
+        clear = "<space>cx",
       },
       highlight = { italic = true },
       ignore_blank_lines = true,

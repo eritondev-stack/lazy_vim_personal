@@ -38,3 +38,6 @@ map(
 map("v", "<space>cs", function()
   require("iron.core").visual_send()
 end, { desc = "Send Visual", remap = true })
+
+-- Deleta todo conteúdo do arquivo
+map("n", "da", ":%d<CR>", { desc = "Delete all content", remap = true })
